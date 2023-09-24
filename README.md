@@ -15,3 +15,10 @@
 
 
 ## Model
+- Se crea el modelo en schema.prisma
+- Luego crear migracion:
+
+      npx prisma migrate dev
+
+- Creara una carpeta de migrations dentro de la carpeta prisma dentro de migrations estara la carpeta nombrada con un codigo aleatorio y el nombre que en este caso sera init
+- Tambien añade la dependencia de prisma client
