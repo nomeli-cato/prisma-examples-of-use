@@ -2,11 +2,12 @@ import creandoDatos from "./models/01-creando-datos.js"
 import {listingAll} from "./models/02-alterando-datos.js"
 
 async function main() {
-  // await creandoDatos("zandor","contreras","lilit@email.em", 105)
-  // await creandoDatos("lucas","miran","lumi@email.em", 35)
-  // await creandoDatos("isabel","lirosa","isali@email.em", 25)
-  // await creandoDatos("fernando","torres","ferres@email.em", 21)
-  listingAll.deleteOne()
+  // await creandoDatos("micael","contreras","caelreas@email.em", 250)
+  // await creandoDatos("sara","torres","torres@email.em", 35)
+  // await creandoDatos("alejandro","torres","alejrres@email.em", 25)
+  // await creandoDatos("clara","torres","cltorres66@email.em", 66)
+  
+  listingAll.upsert()
 }
 
 main()

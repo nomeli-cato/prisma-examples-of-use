@@ -11,7 +11,6 @@ async function creandoDatos(nombre, apellido, email, edad) {
       age: edad
     }
   })
-  console.log(newUser)
 }
 
 export default creandoDatos
