@@ -12,6 +12,7 @@
   "license": "MIT",
   "autorEmail": "",
   "devDependencies": {
+    "@faker-js/faker": "^8.1.0",
     "prisma": "^5.3.1"
   },
   "dependencies": {
